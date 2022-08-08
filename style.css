@@ -1,0 +1,38 @@
+header {
+
+   color: chartreuse;
+    width: 100%;
+    padding: 20px 100px; 
+    display: flex; 
+   
+    
+}
+ nav{
+    display: flex;
+    gap: 50px;
+ }
+
+ #form {
+
+    color: chartreuse;
+ }
+  body {
+background-image: url(./back.jpg);
+  }
+
+  footer{
+    font-size: 40px;
+    width: 100%;
+    height: 10vh;
+    color: chartreuse;
+   
+    justify-content: center;
+}
+
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    width: 100%;
+    height: 10vh;
+    font-size: x-large;
+  }
