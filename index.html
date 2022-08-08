@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+    
+            <nav>
+                <ul>
+                    <li> <a href="./index.html">HOME</a></li>
+                    <li>ABOUT US</li>
+                </ul>
+            </nav>
+    </header>
+
+
+    <main>
+<form  id="form" >
+        <label for="foodName"> Food Name </label>
+        <input type="text" id="foodName">
+        <br>
+        <label for="typeOfFood"> Choose a Types of the food</label>
+        <select name="typeOfFood" id="typeOfFood">
+            <option value="fruitAndVegetables" id="fruitAndVegetables">Fruit and vegetables</option>
+            <option value="starchyFood" id="starchyFood">Starchy food</option>
+            <option value="dairy" id="dairy">Dairy</option>
+            <option value="protein" id="protein">Protein</option>
+            <option value="fat" id="fat">Fat</option>
+        </select>
+        <br>
+        <label for="price">Price</label>
+        <input type="text" id="price">
+        <br>
+        <button type="submit">Submit</button>
+</form>
+
+
+        <table id="table">
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td id="id1"></td>
+                <td id="name1"></td>
+                <td id="type1"></td>
+                <td id="price1"></td>
+            </tr>
+            <tr>
+                <td id="id2"></td>
+                <td id="name2"></td>
+                <td id="type2"></td>
+                <td id="price2"></td>
+            </tr>
+            <tr>
+                <td id="id3"></td>
+                <td id="name3"></td>
+                <td id="type3"></td>
+                <td id="price3"></td>
+            </tr>
+
+
+        </table>
+
+    </main>
+
+<footer>
+    <a href="https://www.facebook.com/abdallah.m.mosa/" class="fa fa-facebook"></a>
+    <a href="https://github.com/AbdallahMosa" class="fa fa-github"></a>
+    <p>&copy;CopyRight 2022 </p>
+</footer>
+
+
+<script src="./app.js" > </script>
+</body>
+</html>
